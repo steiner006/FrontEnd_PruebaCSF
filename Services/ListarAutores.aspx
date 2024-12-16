@@ -8,22 +8,38 @@
     <title>Lista de Autores</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script type="text/javascript">
+    <%--<script type="text/javascript">
         function confirmarEliminacion(Id) {
             console.log("Confirmando eliminación de autor con ID: " + Id);
             return confirm("¿Estás seguro de que deseas eliminar este autor con ID: " + Id + "?");
         }
-</script>
+</script>--%>
 
 </head>
 <body>
     <form id="form1" runat="server">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" runat="server" href="~/">Prueba Técnica CSF</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">CSF</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Services/ListarAutores">Autores</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Services/ListarLibros">Libros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="container mt-5">
             <h2 class="text-center">Lista de Autores</h2>
             
             
             <asp:GridView ID="gvAutores" runat="server" CssClass="table table-bordered table-striped"
-                AutoGenerateColumns="False" EmptyDataText="Autores no encontrados" OnRowDataBound="gvAutores_RowDataBound">
+                AutoGenerateColumns="False" EmptyDataText="Autores no encontrados" OnRowCommand="gvAutores_RowCommand">
                 <Columns>
                     <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" />
                     <asp:BoundField DataField="Nombres" HeaderText="Nombres" SortExpression="Nombres" />
@@ -32,12 +48,17 @@
                     <asp:TemplateField HeaderText="Opciones">
                         <ItemTemplate>
                             <asp:HyperLink ID="hlEditar" runat="server" NavigateUrl='<%# "EditarAutores.aspx?id=" + Eval("Id") %>' Text="Editar" CssClass="btn btn-primary btn-sm"></asp:HyperLink>
-                            <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" CssClass="btn btn-danger btn-sm" CommandName="Eliminar" CommandArgument='<%# Eval("Id") %>' />
+                            <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" CssClass="btn btn-danger btn-sm" 
+                            CommandArgument='<%# Eval("Id") %>' PostBackUrl='<%# "EliminarAutores.aspx?id=" + Eval("Id") %>' /> 
+
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
             </asp:GridView>
-            <asp:Label ID="lblMensaje" runat="server" CssClass="text-danger"></asp:Label>  
+            <asp:Label ID="lblMensaje" runat="server" CssClass="text-danger"></asp:Label> 
+            <%--<asp:Label ID="Label1" runat="server" Text="" CssClass="alert alert-info mt-3"></asp:Label>--%>
+
+
         </div>
     </form>
 

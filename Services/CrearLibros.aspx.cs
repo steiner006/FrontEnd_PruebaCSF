@@ -60,7 +60,7 @@ namespace PruebaCSF_FrontEnd.Services
                 }
                 else
                 {
-                    lblMensaje.Text = "La fecha ingresada no es válida. Usa el formato dd/MM/yyyy.";
+                    lblMensaje.Text = "La fecha ingresada no es válida. Usa el formato yyyy.";
                 }
             }
             catch (Exception ex)

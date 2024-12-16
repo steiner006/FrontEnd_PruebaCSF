@@ -9,6 +9,22 @@
 </head>
 <body>
     <form id="formEditAuthor" runat="server" class="container">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" runat="server" href="~/">Prueba Técnica CSF</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">CSF</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Services/ListarAutores">Autores</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Services/ListarLibros">Libros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="container mt-5">
             <h2 class="text-center">Editar Libro</h2>
             <asp:HiddenField ID="txtId" runat="server" />
@@ -27,7 +43,7 @@
                     ID="revFecha" 
                     runat="server" 
                     ControlToValidate="txtFecha" 
-                    ValidationExpression="^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/\d{4}$" 
+                    ValidationExpression="^\d{4}$" 
                     ErrorMessage="Por favor, ingresa una fecha en el formato yyyy" 
                     ForeColor="Red" 
                     Display="Dynamic" />

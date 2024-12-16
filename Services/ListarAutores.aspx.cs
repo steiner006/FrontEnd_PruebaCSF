@@ -20,23 +20,15 @@ namespace PruebaCSF_FrontEnd.Services
             {
                 if (!IsPostBack)
                 {
-                    var client = new ApiClient();
-                    var authors = await client.GetAsync<List<Autor>>("api/Autores");
-                    gvAutores.DataSource = authors;
-                    gvAutores.DataBind();
+                    var mensaje = Request.QueryString["mensaje"];
+                    if (!string.IsNullOrEmpty(mensaje))
+                    {
+                        lblMensaje.Text = mensaje;
+                    }
 
-                    // Verificar si se obtuvieron datos
-                    if (authors != null && authors.Count > 0)
-                    {
-                        gvAutores.DataSource = authors;
-                        gvAutores.DataBind();
-                    }
-                    else
-                    {
-                        gvAutores.EmptyDataText = "No existen autores";
-                    }
+                    CargarAutores();  // Método para cargar autores en el GridView
                 }
-                
+
             }
             catch (Exception ex)
             {
@@ -45,61 +37,50 @@ namespace PruebaCSF_FrontEnd.Services
             }
         }
 
-        protected void gvAutores_RowDataBound(object sender, GridViewRowEventArgs e)
-        {
-            if (e.Row.RowType == DataControlRowType.DataRow)
-            {
-                // Obtener el ID del autor
-                int id = Convert.ToInt32(DataBinder.Eval(e.Row.DataItem, "Id"));
-
-                // Obtener el botón de eliminación en esta fila
-                Button btnEliminar = (Button)e.Row.FindControl("btnEliminar");
-
-                // Establecer el atributo OnClientClick con el ID del autor
-                btnEliminar.OnClientClick = $"return confirmarEliminacion({id});";
-            }
-        }
-
         protected void gvAutores_RowCommand(object sender, GridViewCommandEventArgs e)
         {
             if (e.CommandName == "Eliminar")
             {
-                // Obtener el ID del autor desde CommandArgument
-                int Id = Convert.ToInt32(e.CommandArgument);
-
-                lblMensaje.Text = $"Eliminando autor con ID: {Id}";
-                // Llamar al método para eliminar el autor
-                EliminarAutor(Id);
-            }
-        }
-
-
-        private async void EliminarAutor(int Id)
-        {
-            try
-            {
-                using (var client = new HttpClient())
+                try
                 {
-                    client.BaseAddress = new Uri("https://localhost:7062/"); 
-                    var response = await client.DeleteAsync($"api/Autores/{Id}");
+                    // Obtener el ID del autor de la fila seleccionada
+                    int id = Convert.ToInt32(e.CommandArgument);
 
-                    if (response.IsSuccessStatusCode)
-                    {
-                        CargarAutores();  
-                        lblMensaje.Text = "El autor fue eliminado correctamente.";
-                    }
-                    else
-                    {
-                        var errorMessage = await response.Content.ReadAsStringAsync();
-                        lblMensaje.Text = $"Error al eliminar el autor: {errorMessage}";
-                    }
+                    // Llamar al método para eliminar el autor
+                    EliminarAutor(id);
+
+                    // Recargar la lista de autores
+                    CargarAutores();
+
+                    // Mostrar mensaje de éxito
+                    lblMensaje.Text = "Autor eliminado correctamente.";
+                    lblMensaje.CssClass = "alert alert-success"; // Estilo de éxito
+                }
+                catch (Exception ex)
+                {
+                    // En caso de error, mostrar mensaje de error
+                    lblMensaje.Text = $"Error al eliminar: {ex.Message}";
+                    lblMensaje.CssClass = "alert alert-danger"; // Estilo de error
                 }
             }
-            catch (Exception ex)
+        }
+
+
+
+        private void EliminarAutor(int id)
+        {
+            using (var client = new HttpClient())
             {
-                lblMensaje.Text = $"Error: {ex.Message}";
+                client.BaseAddress = new Uri("https://localhost:7062/");
+                var response = client.DeleteAsync($"api/Autores/{id}").Result;
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    throw new Exception("Error al eliminar el autor.");
+                }
             }
         }
+
 
         private async void CargarAutores()
         {
@@ -107,7 +88,7 @@ namespace PruebaCSF_FrontEnd.Services
             {
                 using (var client = new HttpClient())
                 {
-                    client.BaseAddress = new Uri("https://localhost:7062/"); 
+                    client.BaseAddress = new Uri("https://localhost:7062/");
                     var response = await client.GetAsync("api/Autores");
 
                     if (response.IsSuccessStatusCode)
@@ -118,15 +99,18 @@ namespace PruebaCSF_FrontEnd.Services
                     }
                     else
                     {
-                        lblMensaje.Text = "Error al cargar los autores.";
+                        gvAutores.EmptyDataText = "No existen autores.";
+                        gvAutores.DataBind();
                     }
                 }
             }
             catch (Exception ex)
             {
-                lblMensaje.Text = $"Error: {ex.Message}";
+                gvAutores.EmptyDataText = $"Error: {ex.Message}";
+                gvAutores.DataBind();
             }
         }
+
 
 
 

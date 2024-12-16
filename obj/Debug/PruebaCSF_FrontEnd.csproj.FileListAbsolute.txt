@@ -1,5 +1,3 @@
-C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\obj\Debug\PruebaCSF_FrontEnd.csproj.AssemblyReference.cache
-C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\obj\Debug\PruebaCSF_FrontEnd.csproj.CoreCompileInputs.cache
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\bin\PruebaCSF_FrontEnd.dll.config
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\bin\PruebaCSF_FrontEnd.dll
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\bin\PruebaCSF_FrontEnd.pdb
@@ -84,6 +82,8 @@ C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\bin\Microsoft.
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\bin\es\System.Web.Optimization.resources.dll
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\obj\Debug\PruebaCSF_FrontEnd.csproj.AssemblyReference.cache
+C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\obj\Debug\PruebaCSF_FrontEnd.csproj.CoreCompileInputs.cache
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\obj\Debug\PruebaCS.DFAB408D.Up2Date
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\obj\Debug\PruebaCSF_FrontEnd.dll
 C:\Users\gabri\source\repos\PruebaCSF_FrontEnd\PruebaCSF_FrontEnd\obj\Debug\PruebaCSF_FrontEnd.pdb
