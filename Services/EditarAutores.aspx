@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="formEditAuthor" runat="server" class="container">
+    <form id="formEditAuthor" runat="server">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" runat="server" href="~/">Prueba Técnica CSF</a>

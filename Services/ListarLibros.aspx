@@ -35,8 +35,12 @@
     </nav>
     <form id="form1" runat="server">
         <div class="container mt-5">
-            <h2 class="text-center">Lista de Libros</h2>
-            
+            <div class="d-flex justify-content-between mb-4">
+                <h2 class="text-center">Lista de Libros</h2>
+                <a href="CrearLibros.aspx" class="btn btn-success btn-lg text-white">
+                    <i class="bi bi-plus-circle"></i> + Crear
+                </a>
+            </div>
             
             <asp:GridView ID="gvLibros" runat="server" CssClass="table table-bordered table-striped"
                 AutoGenerateColumns="False" EmptyDataText="Libros no encontrados" OnRowCommand="gvLibros_RowCommand">

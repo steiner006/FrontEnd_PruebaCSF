@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-            <div class="container">
+            <div class="container-fluid"> 
                 <a class="navbar-brand" runat="server" href="~/">Prueba Técnica CSF</a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">

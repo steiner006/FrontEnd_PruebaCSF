@@ -8,9 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="formEditAuthor" runat="server" class="container">
+    <form id="formEditAuthor" runat="server">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
-            <div class="container">
+            <div class="container-fluid"> 
                 <a class="navbar-brand" runat="server" href="~/">Prueba Técnica CSF</a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">

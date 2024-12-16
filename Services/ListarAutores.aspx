@@ -35,8 +35,12 @@
             </div>
         </nav>
         <div class="container mt-5">
-            <h2 class="text-center">Lista de Autores</h2>
-            
+            <div class="d-flex justify-content-between mb-4">
+                <h2 class="text-center">Lista de Autores</h2>
+                <a href="CrearAutores.aspx" class="btn btn-success btn-lg text-white">
+                    <i class="bi bi-plus-circle"></i> + Crear
+                </a>
+            </div>
             
             <asp:GridView ID="gvAutores" runat="server" CssClass="table table-bordered table-striped"
                 AutoGenerateColumns="False" EmptyDataText="Autores no encontrados" OnRowCommand="gvAutores_RowCommand">
