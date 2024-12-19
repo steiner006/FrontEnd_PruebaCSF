@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\listarlibros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\listarlibros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\listarautores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\listarautores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\eliminarlibros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\eliminarlibros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\eliminarautores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\eliminarautores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\editarlibros.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\editarlibros.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\editarlibros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\editarlibros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\editarautores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\editarautores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\crearlibros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\crearlibros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\crearautores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\crearautores.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\crearautores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\crearautores.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|c:\\users\\gabri\\source\\repos\\pruebacsf_frontend\\pruebacsf_frontend\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B23AE7-DCA5-4176-9A43-728232E13708}|PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd.csproj|solutionrelative:pruebacsf_frontend\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Site.Master.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Site.Master.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Site.Master.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:12:21.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Site.Master",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Site.Master",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Site.Master",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-19T03:12:15.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListarLibros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\ListarLibros.aspx.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\ListarLibros.aspx.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\ListarLibros.aspx.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\ListarLibros.aspx.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:12:02.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListarAutores.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\ListarAutores.aspx.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\ListarAutores.aspx.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\ListarAutores.aspx.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\ListarAutores.aspx.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:56.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EliminarLibros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EliminarLibros.aspx.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\EliminarLibros.aspx.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EliminarLibros.aspx.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\EliminarLibros.aspx.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwB8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:47.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EliminarAutores.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EliminarAutores.aspx.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\EliminarAutores.aspx.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EliminarAutores.aspx.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\EliminarAutores.aspx.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwB8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:30.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditarLibros.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EditarLibros.aspx.designer.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\EditarLibros.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EditarLibros.aspx.designer.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\EditarLibros.aspx.designer.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:25.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditarLibros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EditarLibros.aspx.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\EditarLibros.aspx.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EditarLibros.aspx.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\EditarLibros.aspx.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:21.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditarAutores.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EditarAutores.aspx.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\EditarAutores.aspx.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\EditarAutores.aspx.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\EditarAutores.aspx.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:16.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CrearLibros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\CrearLibros.aspx.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\CrearLibros.aspx.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\CrearLibros.aspx.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\CrearLibros.aspx.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:12.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrearAutores.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\CrearAutores.aspx.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\CrearAutores.aspx.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\CrearAutores.aspx.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\CrearAutores.aspx.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:09.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CrearAutores.aspx",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\CrearAutores.aspx",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\CrearAutores.aspx",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\CrearAutores.aspx",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\CrearAutores.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-19T03:11:07.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Services\\ApiClient.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Services\\ApiClient.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:11:02.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Models\\Autor.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Models\\Autor.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Models\\Autor.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Models\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:10:58.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "PruebaCSF_FrontEnd\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\PruebaCSF_FrontEnd\\PruebaCSF_FrontEnd\\Models\\Libro.cs",
+              "RelativeToolTip": "PruebaCSF_FrontEnd\\Models\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:10:55.245Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
